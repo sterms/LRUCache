@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Sterms
 {
+    //LRU Cache. Steve Stermer. steven@stermer.org
     public class LRUCache<TKey, TValue>
     {
         private Dictionary<TKey, LRUNode> m_CacheMap = new Dictionary<TKey, LRUNode>();
